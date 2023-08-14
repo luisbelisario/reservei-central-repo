@@ -1,0 +1,6 @@
+[submodule "clients-api"]
+	path = clients-api
+	url = https://github.com/luisbelisario/clients-api.git
+[submodule "security-api"]
+	path = security-api
+	url = https://github.com/luisbelisario/security-api.git
