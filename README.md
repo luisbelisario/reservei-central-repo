@@ -9,8 +9,7 @@ This project aims to be a system to facilitate the reservation of sports courts 
 
 The project will follow the microservices architecture and will be modularized as follows: a customer service will be responsible for registering users and sports court administrators, a court service that will be a catalog of courts available for reservation, a reservations that will only be responsible for managing the reservations made by customers on the courts and an application and a payment service that will only receive information from the reservation service (using Kafka for the messaging service). The access to the services will be controlled by a security API that will have the function of controlling access by logged in users and generating jwt tokens that allow access. The diagram below illustrates how the system works visually:
 
-![system-diagram](https://github.com/luisbelisario/reservei-central-repo/assets/48885341/7d8a4258-66b9-4805-935a-e25b3bc69876)
-
+![system-diagram](https://github.com/luisbelisario/reservei-central-repo/assets/48885341/3c7ae3bc-c0ef-4b19-a5c9-ea9713e04b91)
 
 ## Current status of the project
 
