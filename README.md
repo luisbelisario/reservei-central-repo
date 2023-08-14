@@ -5,6 +5,10 @@
 
 This project aims to be a system to facilitate the reservation of sports courts for tennis, indoor soccer, beach volleyball and beach tennis. In it, customers will be able to register and view the courts they like the most, after which they will be able to reserve them and make the reservation payment directly through the application.
 
+## Live project:
+
+https://reservei-frontend-web.vercel.app/
+
 ## Project architecture
 
 The project will follow the microservices architecture and will be modularized as follows: a customer service will be responsible for registering users and sports court administrators, a court service that will be a catalog of courts available for reservation, a reservations that will only be responsible for managing the reservations made by customers on the courts and an application and a payment service that will only receive information from the reservation service (using Kafka for the messaging service). The access to the services will be controlled by a security API that will have the function of controlling access by logged in users and generating jwt tokens that allow access. The diagram below illustrates how the system works visually:
