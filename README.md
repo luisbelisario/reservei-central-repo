@@ -17,7 +17,7 @@ The project will follow the microservices architecture and will be modularized a
 
 ## Current status:
 
-The project is currently in the integration phase between customer and security services. The process of creating users in the security service has already been completed when creating a customer or admin in the customer service. Now I'm working on application security with jwt token generation, restricted access for logged in users and cors blocking.
+The integration between the client api and the security api was completed. The project is in the integration testing phase with the frontend to check for any failures or inconsistencies.
 
 ## Articles about the project:
 
@@ -30,3 +30,8 @@ https://luisbls197.medium.com/doing-validations-in-an-elegant-and-scalable-way-w
 ### Using OpenFeign for API communication in a microsservice environment:
 
 https://luisbls197.medium.com/using-openfeign-for-api-communication-in-a-microsservice-environment-b6a667c8184
+
+### Tutorial Spring Security:
+
+https://www.youtube.com/watch?v=5w-YCcOjPD0&t=2330s
+
