@@ -4,3 +4,6 @@
 [submodule "security-api"]
 	path = security-api
 	url = https://github.com/luisbelisario/security-api.git
+[submodule "courts-api"]
+	path = courts-api
+	url = git@github.com:luisbelisario/courts-api.git
